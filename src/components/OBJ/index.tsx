@@ -1,4 +1,5 @@
 import { useLoader } from "@react-three/fiber";
+import { useMemo } from "react";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
 
 type Props = {
@@ -8,10 +9,10 @@ type Props = {
 
 const OBJ = ({ urlOBJ }: Props) => {
   const obj = useLoader(OBJLoader, urlOBJ);
-
+  const copiedScene = useMemo(() => obj.clone(), [obj]);
   return (
     <mesh>
-      <primitive object={obj} />
+      <primitive object={copiedScene} />
     </mesh>
   );
 };
