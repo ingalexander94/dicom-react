@@ -1,0 +1,43 @@
+section.tridimensional_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 20px;
+  flex: 1;
+}
+
+section.tridimensional_wrapper article {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 600px auto;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+section.tridimensional_wrapper button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  outline: 4px solid var(--primary-color);
+  border: none;
+  border-radius: 50%;
+}
+
+section.tridimensional_wrapper button.left img {
+  transform: rotate(180deg);
+}
+
+section.tridimensional_wrapper div {
+  display: grid;
+  place-content: center;
+}
+
+section.tridimensional_wrapper canvas {
+  width: 600px;
+  height: 600px;
+  border-radius: 4px;
+  border: 1px solid var(--text-color);
+}

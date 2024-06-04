@@ -1,0 +1,21 @@
+section.twodimensional_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  flex: 1;
+  align-items: center;
+}
+
+section.twodimensional_wrapper figure {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+}
+
+section.twodimensional_wrapper figure img {
+  width: 100%;
+  object-fit: contain;
+}
