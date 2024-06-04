@@ -7,13 +7,13 @@ import { OBJModel } from "src/interfaces";
 
 const obj: OBJModel[] = [
   {
-    pathOBJ: "src/assets/obj/2023-09-06_003_OFELIA-HERNANDEZ-LowerJaw.obj",
-    pathMTL: "src/assets/obj/2023-09-06_003_OFELIA-HERNANDEZ-LowerJaw.mtl",
+    pathOBJ: "obj/2023-09-06_003_OFELIA-HERNANDEZ-LowerJaw.obj",
+    pathMTL: "obj/2023-09-06_003_OFELIA-HERNANDEZ-LowerJaw.mtl",
     filename: "2023-09-06_003_OFELIA-HERNANDEZ-LowerJaw.obj",
   },
   {
-    pathOBJ: "src/assets/obj/2023-09-06_003_OFELIA-HERNANDEZ-UpperJaw.obj",
-    pathMTL: "src/assets/obj/2023-09-06_003_OFELIA-HERNANDEZ-UpperJaw.mtl",
+    pathOBJ: "obj/2023-09-06_003_OFELIA-HERNANDEZ-UpperJaw.obj",
+    pathMTL: "obj/2023-09-06_003_OFELIA-HERNANDEZ-UpperJaw.mtl",
     filename: "2023-09-06_003_OFELIA-HERNANDEZ-UpperJaw.obj",
   },
 ];
